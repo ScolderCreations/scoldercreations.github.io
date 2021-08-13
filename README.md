@@ -1,3 +1,3 @@
 helo
 
-web s[a](/placeholder)ite
+web s[a](/placeholder.html)ite
