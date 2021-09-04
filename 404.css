@@ -6,7 +6,7 @@
   80% {color: #000000;}
   100% {color: #000000;}
 }
-p {
+body {
   animation-name: slide;
   animation-duration: 5s;
   animation-iteration-count: infinite;
