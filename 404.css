@@ -4,3 +4,7 @@
   50%  {background-color: #8000ff;}
   100% {background-color: #45008a;}
 }
+p {
+  animation-name: slide;
+  animation-duration: 5s;
+}
