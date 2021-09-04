@@ -1,0 +1,6 @@
+@keyframes slide {
+  0%   {background-color: #000000;}
+  25%  {background-color: #45008a;}
+  50%  {background-color: #8000ff;}
+  100% {background-color: #45008a;}
+}
