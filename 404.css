@@ -11,4 +11,5 @@ body {
   animation-duration: 5s;
   animation-iteration-count: infinite;
   background-color: green;
+  font-family: Helvetica;
 }
