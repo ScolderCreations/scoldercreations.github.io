@@ -9,7 +9,7 @@ var showcount = setInterval(function() {
   document.getElementById("days").innerHTML = days + " days, "
   document.getElementById("hours").innerHTML = hours + " hours, " 
   document.getElementById("mins").innerHTML = minutes + " minutes, " 
-  document.getElementById("secs").innerHTML = "and " seconds + " seconds."
+  document.getElementById("secs").innerHTML = "and " + seconds + " seconds."
   if (timeleft < 0) {
     clearInterval(showcount);
     document.getElementById("days").innerHTML = ""
