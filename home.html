@@ -3,6 +3,16 @@
   <head>
     <meta charset="UTF-8">
     <style>
+      @keyframes appear {
+      from {
+       margin-left: 100%;
+       color: rgba(0,0,0,0);
+      }
+
+      to {
+       margin-left: 0%;
+       color: whitesmoke;
+      }
     body {
     background: linear-gradient(120deg, rgba(50,0,255,.8), rgba(255,0,0,0) 70.71%),
                 linear-gradient(240deg, rgba(0,50,255,.8), rgba(0,255,0,0) 70.71%),
@@ -12,6 +22,9 @@
     color: whitesmoke;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation-duration: 3s;
+    animation-name: appear;
+    animation-iteration-count: 1;
     }
     </style>
     <title>Home</title>
